@@ -1,10 +1,11 @@
 {
-  "name": "authmiddleware",
-  "version": "1.0.0",
+  "name": "@krhanmehmet/authmiddleware",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,11 @@
   },
   "homepage": "https://github.com/krhanmehmet/authmiddleware#readme",
   "dependencies": {
+    "@types/express": "^4.16.1",
     "axios": "^0.18.0",
     "express": "^4.16.4"
-  }
+  },
+  "files" : [
+    "/lib/**/*"
+  ]
 }
