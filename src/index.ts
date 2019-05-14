@@ -48,6 +48,5 @@ function AuthMiddleware() {
     };
 }
 
-const Auth = AuthMiddleware();
+export const Auth = AuthMiddleware();
 
-export { Auth };
